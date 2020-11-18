@@ -1,5 +1,5 @@
 const router = require("express").Router();
-const store = require("../db/store");
+const store = require("../public/assets/js/index");
 const uuid = require("uuid");
 
 router.get("/api/notes", function(res, req) {
