@@ -3,12 +3,22 @@
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
+  "dependencies": {},
+  "devDependencies": {
+    "express": "^4.17.1"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smith-carlicia/note-taker.git"
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "express": "^4.16.4"
-  }
+  "bugs": {
+    "url": "https://github.com/smith-carlicia/note-taker/issues"
+  },
+  "homepage": "https://github.com/smith-carlicia/note-taker#readme"
 }
