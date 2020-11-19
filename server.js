@@ -12,12 +12,12 @@ const htmlRoutes = require("./routes/htmlRoutes");
 // Middleware
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-// app.use(express.static("public"));
+app.use(express.static("public"));
 
 // Server Routes
 // express use the root path to render the htmlRoutes
-app.use("/", htmlRoutes);
-app.use("/api", apiRoutes);
+app.use(apiRoutes);
+app.use(htmlRoutes);
 
 // Listener to initiate server
 app.listen(PORT, function() {
