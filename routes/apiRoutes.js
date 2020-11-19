@@ -25,3 +25,5 @@ router.delete("/api/notes:id", (res, req) => {
         };
     };
 });
+
+module.exports = router;
