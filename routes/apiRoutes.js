@@ -17,7 +17,7 @@ router.post("/api/notes", (req, res) => {
     return res.json(db);
 });
 
-router.delete("/api/notes:id", (req, res) => {
+router.delete("/api/notes/:id", (req, res) => {
     const id = req.params.id;
     for (let i = 0; i < db.length; i++) {
       if (db[i].id == id) {
