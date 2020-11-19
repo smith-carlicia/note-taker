@@ -1,7 +1,9 @@
 const router = require("express").Router();
 const uuid = require("uuid");
 const db = require("../db/db.json");
+const fs = require('fs');
 console.log(db)
+
 
 router.get("/api/notes", function(req, res) {
     return res.json(db);
@@ -29,6 +31,6 @@ router.delete("/api/notes:id", (req, res) => {
 
 function writeToDB(array) {
     fs.writeFileSync("./db/db.json", JSON.stringify(array));
-  }
+  };
 
 module.exports = router;
