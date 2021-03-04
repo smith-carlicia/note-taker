@@ -8,11 +8,11 @@ This Note Taker codebase is designed to allow users to post, save and delete not
 ![Demo](./public/assets/gif/Note-Taker-Demo.gif)
 
 ## Sources
-**![Express.js](https://expressjs.com/)
+* [Express.js](https://expressjs.com/)
 
 ## URLS
-**![GitHub](https://github.com/smith-carlicia/note-taker.git)
-**![Heroku]()
+* [GitHub](https://github.com/smith-carlicia/note-taker.git)
+* [Heroku](https://enigmatic-atoll-90656.herokuapp.com/)
 
 ## License 
 MIT License
